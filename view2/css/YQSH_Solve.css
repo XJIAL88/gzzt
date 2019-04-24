@@ -1,0 +1,108 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url(../img/YQSH_SolveBanner.png) center no-repeat;
+}
+
+.services {
+    width: 100%;
+    height: 646px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.services h3 {
+    text-align: center;
+    font-family: PingFangSC-Light, Microsoft YaHei;
+    font-size: 36px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.services p {
+    width: 942px;
+    height: 452px;
+    background: url(../img/process.png) center no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.minsheng p {
+    width: 942px;
+    height: 274px;
+    background: url(../img/minsheng.png) center no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.minsheng {
+    width: 100%;
+    height: 460px;
+    background: #f6f9ff;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.minsheng h3 {
+    text-align: center;
+    font-family: PingFangSC-Light, Microsoft YaHei;
+    font-size: 36px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.minsheng p {
+    width: 942px;
+    height: 274px;
+    background: url(../img/minsheng.png) center no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.FWTX {
+    width: 100%;
+    background: #ffffff;
+    height: 500px;
+    box-sizing: border-box;
+    background: url(../img/FWTX.png) center no-repeat;
+    margin: 0 auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 45px;
+}
+
+.FWTX h3 {
+    text-align: center;
+    font-family: PingFangSC-Light, Microsoft YaHei;
+    font-size: 36px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.HXJZ {
+    width: 100%;
+    height: 490px;
+    background: #f6f9ff;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.HXJZ h3 {
+    text-align: center;
+    font-family: PingFangSC-Light, Microsoft YaHei;
+    font-size: 36px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.HXJZ p {
+    width: 940px;
+    height: 304px;
+    background: url(../img/HXJZ.png) center no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.footer {
+    margin-top: 0;
+}

@@ -1,0 +1,342 @@
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url(../img/VLinkbanner.jpg) center no-repeat;
+}
+.banner h3{
+    margin-top: 80px;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    font-size: 36px;
+    font-weight: lighter;
+    color:white;
+    text-align: center;
+    line-height: 98px;
+}
+
+.banner p{
+    padding: 40px 10px 0;
+    box-sizing: border-box;
+     line-height: 30px;
+    width: 920px;
+    height: 190px;
+    margin: 0 auto;
+    background:rgba(255, 255, 255, 0.3);
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    font-size: 16px;
+    font-weight: lighter;
+    color:white;
+    text-align: justify;
+}
+.VLinkTerminal {
+    background: #f7faff;
+    width: 100%;
+    height: 876px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+}
+
+.VLinkTerminal h3 {
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 14px;
+}
+
+.VLinkTerminal p:nth-of-type(1) {
+    font-size: 16px;
+    color: #979797;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.VLinkTerminal ul {
+    margin-top: 40px;
+}
+
+.VLinkTerminal ul li {
+    width: 250px;
+    height: 250px;
+    background: pink;
+    float: left;
+}
+
+.VLinkTerminal ul li:nth-of-type(1) {
+    position: relative;
+    background: #35c76f;
+    padding-top: 50px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.VLinkTerminal ul li:nth-of-type(1) p:nth-of-type(1) {
+    width: 84px;
+    height: 90px;
+    background: url(../img/VLinkicon01.png) no-repeat;
+    margin: 0px auto;
+}
+
+.VLinkTerminal ul li:nth-of-type(1) p:nth-of-type(2) {
+    width: 72px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.VLinkTerminal ul li:nth-of-type(1) span {
+    width: 30px;
+    height: 40px;
+    background: url(../img/VLinkrightW.png)no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+}
+
+
+.VLinkTerminal ul li:nth-of-type(3) {
+    position: relative;
+    background: #7172ec;
+    padding-top: 50px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.VLinkTerminal ul li:nth-of-type(3) p:nth-of-type(1) {
+    width: 90px;
+    height: 90px;
+    background: url(../img/VLinkicon02.png) no-repeat;
+    margin: 0px auto;
+}
+
+.VLinkTerminal ul li:nth-of-type(3) p:nth-of-type(2) {
+    width: 108px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.VLinkTerminal ul li:nth-of-type(3) span {
+    width: 30px;
+    height: 40px;
+    background: url(../img/VLinkrightW.png)no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+}
+
+.VLinkTerminal ul li:nth-of-type(6) {
+    position: relative;
+    background: #3f8fe6;
+    padding-top: 50px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.VLinkTerminal ul li:nth-of-type(6) p:nth-of-type(1) {
+    width: 90px;
+    height: 90px;
+    background: url(../img/VLinkicon03.png) no-repeat;
+    margin: 0px auto;
+}
+
+.VLinkTerminal ul li:nth-of-type(6) p:nth-of-type(2) {
+    width: 108px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.VLinkTerminal ul li:nth-of-type(6) span {
+    width: 30px;
+    height: 40px;
+     background: url(../img/VLinkleftW.png)no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+}
+
+/*  **************************************************/
+
+.VLinkTerminal ul li:nth-of-type(8) {
+    position: relative;
+    background: #eb7857;
+    padding-top: 50px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.VLinkTerminal ul li:nth-of-type(8) p:nth-of-type(1) {
+    width: 90px;
+    height: 90px;
+    background: url(../img/VLinkicon04.png) no-repeat;
+    margin: 0px auto;
+}
+
+.VLinkTerminal ul li:nth-of-type(8) p:nth-of-type(2) {
+    height: 50px;
+    margin: 10px auto;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.VLinkTerminal ul li:nth-of-type(8) span {
+    width: 30px;
+    height: 40px;
+    background: url(../img/VLinkleftW.png)no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+}
+/* 公共 **************************************************/
+
+.VLinkTerminal ul li:nth-of-type(2),
+.VLinkTerminal ul li:nth-of-type(4),
+.VLinkTerminal ul li:nth-of-type(5),
+.VLinkTerminal ul li:nth-of-type(7) {
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.VLinkTerminal ul li:nth-of-type(2) p:nth-of-type(1),
+.VLinkTerminal ul li:nth-of-type(4) p:nth-of-type(1),
+.VLinkTerminal ul li:nth-of-type(5) p:nth-of-type(1),
+.VLinkTerminal ul li:nth-of-type(7) p:nth-of-type(1) {
+    font-size: 24px;
+    color: #979797;
+    text-align: justify;
+}
+
+.VLinkTerminal ul li:nth-of-type(2) p:nth-of-type(2),
+.VLinkTerminal ul li:nth-of-type(4) p:nth-of-type(2),
+.VLinkTerminal ul li:nth-of-type(5) p:nth-of-type(2),
+.VLinkTerminal ul li:nth-of-type(7) p:nth-of-type(2)  {
+    font-size: 16px;
+    color: #979797;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/*  **************************************************/
+
+.VLinkTerminal .last {
+    width: 220px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.VLinkTerminal .last a {
+    width: 220px;
+    height: 60px;
+    background: #3f8fe6;
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
+.scenarios {
+    width: 100%;
+    height: 816px;
+    background: #f7faff;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+}
+
+.scenarios h3 {
+    font-weight: normal;
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.scenarios ul {
+    margin-top: 40px;
+}
+
+.scenarios ul li {
+    width: 490px;
+    height: 300px;
+    background: pink;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.scenarios ul li:nth-of-type(1) {
+    background: #fff url(../img/VLinkBG01.png)no-repeat;
+}
+
+.scenarios ul li:nth-of-type(2) {
+    background: #fff url(../img/VLinkBG02.png)no-repeat;
+}
+
+.scenarios ul li:nth-of-type(3) {
+    background: #fff url(../img/VLinkBG03.png)no-repeat;
+}
+
+.scenarios ul li:nth-of-type(4) {
+    background: #fff url(../img/VLinkBG04.png)no-repeat;
+}
+
+.scenarios ul li div.mask {
+    width: 490px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 250px;
+    left: 0;
+    padding: 10px 22px;
+    box-sizing: border-box;
+}
+
+.scenarios div.mask h4 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: normal;
+    font-weight: lighter;
+}
+
+.scenarios div.mask p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+    margin-top: 20px;
+}
+/*  **************************************************/
+.VLinkTerminal ul .show span.rightblack {
+    background-image: url(../img/VLinkrightB.png);
+}
+
+.VLinkTerminal ul .show span.leftblack {
+    background-image: url(../img/VLinkleftB.png);
+}
+/*  **************************************************/
+/*页脚*/
+
+.footer {
+    margin-top: 0;
+}

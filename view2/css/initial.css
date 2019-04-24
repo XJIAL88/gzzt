@@ -1,0 +1,105 @@
+/* css 初始化 */
+
+
+/* 1.清除浏览器默认样式 */
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0
+}
+
+
+/* 2.针对性处理 */
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/*清除列表默认风格*/
+
+textarea {
+    resize: none;
+}
+
+
+/*文本域禁止拖拽*/
+
+img {
+    border: none;
+    display: block;
+}
+
+
+/*清除图片链接在ie下默认边框，图片底部默认的空白*/
+
+
+/* 3.设置全局样式 */
+
+body {
+    color: #3c3c3c;
+    font-size: 12px;
+    font-family: PingFangSC-Light, Microsoft YaHei, Tahoma, Arial, sans-serif;
+}
+
+a {
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2174f6;
+}
+
+
+/* 4.定义常用类 */
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*版心*/
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}

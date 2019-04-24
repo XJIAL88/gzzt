@@ -1,0 +1,286 @@
+/* 
+* @Author: Marte
+* @Date:   2016-05-14 15:23:23
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-05-09 12:19:10
+*/
+
+
+/*介绍*/
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url(../img/HSHbanner.png) center no-repeat;
+}
+
+.banner .wrap {
+    position: relative;
+}
+
+.banner div.dowm {
+    width: 180px;
+    height: 46px;
+    background: url(../img/downicon.png) center no-repeat;
+    /*margin-top: 20px;*/
+    cursor: pointer;
+    position: absolute;
+    top: 356px;
+    right: 200px;
+}
+
+.dowm .pic {
+    width: 100px;
+    height: 100px;
+    background: pink;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    background: url(../img/HSHcold.png) no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.banner .dowm:hover {
+    background: url(../img/downl.png) 0 0 no-repeat;
+}
+
+.banner .iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.introduce {
+    padding-top: 20px;
+    width: 100%;
+    height: 910px;
+    background: #f7faff;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+}
+
+.introduceIcon {
+    width: 154px;
+    height: 154px;
+    background: url(../img/huishenghuo01.png) no-repeat;
+    margin: 50px auto 0;
+}
+
+.introduce p:nth-of-type(1) {
+    height: 50px;
+    margin: 20px auto 0;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+    line-height: 50px;
+}
+
+.introduce p:nth-of-type(2) {
+    width: 218px;
+    height: 33px;
+    margin: 1px auto 0;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    font-size: 24px;
+    color: #979797;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.introduce p:nth-of-type(3) {
+    width: 100%;
+    height: 132px;
+    font-size: 16px;
+    color: #979797;
+    letter-spacing: 0px;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.phoneShow {
+    width: 790px;
+    height: 558px;
+    margin-top: 40px;
+    margin: 0 auto;
+    background: url(../img/huishenghuo05.png) center no-repeat;
+    position: relative;
+}
+
+.showleft {
+    width: 196px;
+    height: 388px;
+    background: url(../img/huishenghuo03.png) no-repeat;
+    position: absolute;
+    left: 4px;
+    top: 60px;
+}
+
+.showright {
+    width: 196px;
+    height: 388px;
+    background: url(../img/huishenghuo04.png) no-repeat;
+    position: absolute;
+    right: 4px;
+    top: 60px;
+}
+
+
+/*产品功能*/
+
+.function {
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    width: 100%;
+    height: 780px;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.function h3 {
+    width: 192px;
+    height: 68px;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.function p:nth-of-type(1) {
+    font-size: 16px;
+    color: #979797;
+    margin: 0 auto;
+}
+
+.function ul li {
+    width: 312px;
+    height: 280px;
+    float: left;
+    margin: 40px 28px 0 0;
+}
+
+.function ul li:nth-of-type(3),
+.function ul li:nth-of-type(6) {
+    margin-right: 0;
+}
+
+.function ul li:nth-of-type(1) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuoicon1.png) center no-repeat;
+}
+
+.function ul li:nth-of-type(2) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuo2.png) center no-repeat;
+}
+
+.function ul li:nth-of-type(3) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuo3.png) center no-repeat;
+}
+
+.function ul li:nth-of-type(4) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuo4.png) center no-repeat;
+}
+
+.function ul li:nth-of-type(5) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuo5.png) center no-repeat;
+}
+
+.function ul li:nth-of-type(6) p:nth-of-type(1) {
+    width: 166px;
+    height: 160px;
+    border-radius: 50%;
+    background: #4b92ea url(../img/huishenghuo6.png) center no-repeat;
+}
+
+.function ul li p:nth-of-type(2) {
+    font-size: 20px;
+    color: #666666;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 71px;
+    margin-top: 20px;
+}
+
+.function ul li p.color {
+    font-size: 20px;
+    color: #666666;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+
+.function ul li p:nth-of-type(3) {
+    font-size: 16px;
+    color: #979797;
+    margin-left: 70px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.function ul li p.color1 {
+    margin-left: 30px;
+}
+
+
+/*服务*/
+
+.service {
+    width: 100%;
+    height: 795px;
+    background: #f7faff;
+    font-family: PingFangSC-Light, 'Microsoft YaHei';
+    padding-top: 50px;
+}
+
+.service h3 {
+    /*width: 576px;*/
+    height: 68px;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #666666;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service p:nth-of-type(1) {
+    width: 100%;
+    height: 132px;
+    font-size: 16px;
+    color: #979797;
+    letter-spacing: 0px;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.service p:nth-of-type(2) {
+    width: 1104px;
+    height: 562px;
+    background: url(../img/huishenghuo06.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: -40px 0 0 -36px;
+}
+
+
+/*页脚*/
+
+.footer {
+    margin-top: 0;
+}

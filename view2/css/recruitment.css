@@ -1,0 +1,153 @@
+/* 
+* @Author: Marte
+* @Date:   2016-06-03 09:36:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-05-10 18:07:19
+*/
+
+body {
+    font-family: PingFangSC-Light, 'Microsoft YaHei', Helvetica, Microsoft YaHei, Tahoma, Arial, 'sans-serif';
+}
+
+.box {
+    background: #f2f2f2;
+    position: relative;
+}
+
+.box .fugai {
+    padding-top: 62px;
+    width: 100%;
+    height: 200px;
+    /*background: url(../img/fugai.png) center no-repeat;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.box .banner p {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    /*margin-left: 128px;*/
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.box .banner h3 {
+    font-size: 40px;
+    font-weight: normal;
+    width: 250px;
+    color: white;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url(../img/recruitment.png) center no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.content {
+    position: relative;
+    height: 2126px;
+}
+
+.content .wrap {
+    background: white;
+    position: absolute;
+    top: -68px;
+    left: 50%;
+    margin-left: -500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content .wrap h3 {
+    font-size: 28px;
+    font-weight: lighter;
+    width: 116px;
+    border-bottom: 2px solid #4786F0;
+    margin: 20px auto 40px;
+}
+
+.content .wrap .box {
+    width: 1000px;
+    height: 100%;
+    padding: 0 70px;
+    box-sizing: border-box;
+    background: white;
+    margin-bottom: 40px;
+}
+
+.content .box h4 {
+    font-size: 32px;
+    font-weight: lighter;
+    color: #4786f0;
+    margin-top: 40px;
+}
+
+.content .box h5 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #575757;
+}
+
+.content .box p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    color: #575757;
+    line-height: 30px;
+}
+
+.content .box .lines {
+    width: 860px;
+    height: 1px;
+    background: #cdcdcd;
+    margin-top: 40px;
+}
+
+.footer{
+    position: static;
+}
+.footer .footerTop{
+    position: relative;
+}
+/*======================*/
+.zhaopin{
+    width: 1000px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: -52px;
+    left: 0;
+}
+.zhaopin a{
+    width: 110px;
+    height: 30px;
+    display:inline-block;
+    margin-left: 20px;
+    color:#999;
+}
+
+.zhaopin a:nth-of-type(1){
+    color:white;
+}
+.content .wrap::before {
+    content: '';
+    width: 18px;
+    height: 12px;
+    background: url(../img/xiaosanjiao.png) no-repeat;
+    position: absolute;
+    top:-11px;
+    left: 50%;
+    margin-left: -67px;
+}
